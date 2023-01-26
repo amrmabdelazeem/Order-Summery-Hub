@@ -1,19 +1,125 @@
-/*### Primary
-
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
-
-### Neutral
-
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)*/
-
+/*setting colors shortcuts*/
 :root{
     --paleblue: #e0e8ff;
     --brightblue:#3829e0;
     --verypaleblue: #f5f7ff;
     --desaturatedblue:#7280a7;
     --darkblue:#1f2f56;
+}
+
+*, a{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+body{
+    width: 290px;
+    height: 500px;
+    margin: auto;
+    background: url("../images/pattern-background-mobile.svg");
+    background-size:cover;
+}
+.card-container{
+    margin-top: 80px;
+    border-radius:20px;
+    background-color: #ffffff;
 
 }
+
+.image-container img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.paragraph-content h1{
+    font-weight:900;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paragraph-content p{
+    color: grey;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+    width: 80%;
+}
+
+.plan-box{
+    margin: 20px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: var(--verypaleblue);
+    border-radius: 10px;
+    padding: 10px;
+}
+.plan-box img{
+    width: 35px;
+}
+
+.plan-box h2{
+    font-weight: 900;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.plan-box p{
+    font-size: 12px;
+    color: var(--desaturatedblue);
+
+}
+
+.plan-box .change-style{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration:underline;
+    color:#3829e0;
+    padding-right: 5px;
+}
+
+.plan-box .middle-box{
+    line-height: .5;
+    position: relative;
+    right: 20px;
+}
+
+.buttons-section{
+    display: grid;
+}
+
+.buttons-section .payment-button{
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #3829e0;
+    font-size: 13px;
+    font-weight: 700;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 13px 7px #e0e8ff;
+}
+
+.buttons-section .cancel-button{
+    color: var(--desaturatedblue);
+    background: none;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    width: 70%;
+    height: inherit;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
