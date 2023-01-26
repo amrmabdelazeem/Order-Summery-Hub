@@ -26,8 +26,8 @@ Users should be able to:
 - [Desktop](https://i.imgur.com/PB3GkuJ.jpeg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-45FmvxWBhN)
+- Live Site URL: [Add live site URL here](https://amrmabdelazeem.github.io/Order-Summery-Hub/)
 
 ## My process
 
