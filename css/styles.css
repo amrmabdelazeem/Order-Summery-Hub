@@ -133,4 +133,16 @@ body{
         margin-top: 150px;
         width: 300px;
     }
+
+    .plan-box .change-style:hover , .payment-button:hover{
+        text-decoration: none;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    
+    .buttons-section .cancel-button:hover{
+        cursor: pointer;
+        color: #000000;
+
+    }
 }
